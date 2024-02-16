@@ -1,0 +1,82 @@
+﻿@font-face {
+    font-family: "Title";
+    src: url(font/Title.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#newfont {
+    font-family: 'Title';
+}
+
+body {
+    background: #E0C0A9;
+   
+}
+
+
+header {
+
+    background: transparent;
+}
+
+.hey {
+    height: 80px;
+    //box-shadow: 0 7px 8px rgba(177, 124, 85, 0.3);
+}
+
+.Title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36pt;
+    background: linear-gradient(to bottom, #A73441, #971D2A 200%);
+    -webkit-background-clip: text; /* Для браузеров, использующих движок WebKit (Chrome, Safari) */
+    background-clip: text; /* Стандартное свойство для большинства браузеров */
+    color: transparent !important; /* Делаем текст прозрачным, так как градиент будет применяться к фону текста */
+    margin-left: 80px;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: lighter;
+    border: 0px;
+    width: auto;
+}
+.Title:hover{
+    animation: color-change 1s infinite;
+    color: red !important;
+    text-decoration: none;
+    background: transparent;
+}
+
+
+
+img{
+    position: relative;
+    margin-top: 100px;
+    left: 430px;
+    height: 600px
+}
+
+a {
+    width: 100px;
+    background: transparent;
+    //border-radius: 5px;
+    color: #A73441 !important;
+    //font-weight: lighter;
+    border: 2px solid #A73441;
+    font-size: 16pt;
+    margin-right: 40px;
+    text-align: center;
+}
+a:hover {
+    animation: color-change 1s infinite;
+    color: #F4B970 !important;
+    background: #A73441;
+    text-decoration: none;
+}
+#rectangle {
+    width: 1460px;
+    height: 2px;
+    background: #A73441;
+    position: absolute;
+    right: 0px;
+}
